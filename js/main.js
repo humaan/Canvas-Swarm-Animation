@@ -336,7 +336,6 @@ function toShape( shape, opts ){
 		}
 
 		var tween = new Tween({
-			from : piece.presentationPoint,
 			to : new Point(point.x, point.y),
 			easing : _opts.easing,
 			duration : speed,
